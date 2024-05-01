@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6rem; //ocultar cuando se use inner
+    padding-top: 6rem; //ocultar cuando se use inner
+    padding-bottom: 5rem;
+    height: 3rem;
+}
+
+.nav {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.navLink {
+    &active{
+        color: var(--primary);
+    }
+    &:hover {
+        color: var(--primary);
+        transition: all ease-in-out 0.3s;
+    }
+}
+
+.logo {
+    height: 4rem;
+    width: auto;
+    cursor: pointer;
+    transition: transform ease-in-out 1s;
+}
+
+.logo:hover{
+    transition: transform ease-in-out 1s;
+    transform: scale(1.1) rotate(-2deg);
+}
+
+.logo:hover {
+    transition: all ease-in-out 0.3s;
+    color: var(--primary);
+}

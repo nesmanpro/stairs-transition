@@ -1,0 +1,29 @@
+.stairs {
+    .transitContainer{
+        z-index: 100;
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        display: flex;
+        div{
+            position: relative;
+            height: 100%;
+            width: 100%;
+            background-color: black;
+        }
+    }
+    .bg{
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        display: flex;
+        background-color: black;
+        // opacity: .65;
+    }
+}
