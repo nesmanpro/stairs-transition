@@ -6,18 +6,20 @@ import { motion } from 'framer-motion';
 import Stairs from "@/components/stairs";
 
 
-export default function Contact() {
+
+export default function notFound() {
 
     return (
+
         <Stairs className={`${styles.main} ${inter.className}`}>
 
             <motion.h1
                 initial={{ y: 30, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ ease: "easeOut", duration: 0.3 }}
-                className={styles.title}>
+                className={styles.e404}>
 
-                Contact
+                404
 
             </motion.h1>
 
@@ -25,8 +27,8 @@ export default function Contact() {
                 initial={{ y: 30, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ ease: "easeOut", duration: 0.3 }}
-                className={styles.paragraph}>
-                Lorem ipsum dolor sit amet consectetur elit.  Ea adipisicing  incidunt  magnam quod doloribus maxime omnis placeat vitae,vero aperiam numquam facilis recusandae laboriosam aut? Libero asperiores nulla labore minima maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit.  Ea incidunt magnam quod doloribus maxime omnis placeat vitae, vero aperiam nu<span className={styles.span}>mquam facilis recusandae laboriosam aut? Libero asperiores nulla</span> labore minima maxime.
+                className={styles.para404}>
+                Error! <span className={styles.span}>   Page not found </span>
             </motion.p>
 
         </Stairs>

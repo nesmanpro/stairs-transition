@@ -18,7 +18,21 @@
   font-weight: 300;
 }
 
+.e404{
+  display: flex;
+  justify-content: center;
+  font-size: 6rem;
+  font-weight: 300;
+}
+
 .paragraph {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.para404 {
+  display: flex;
+  justify-content: center;
   font-size: 2rem;
   font-weight: 300;
 }
