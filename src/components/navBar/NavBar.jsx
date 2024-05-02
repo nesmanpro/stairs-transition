@@ -1,9 +1,12 @@
 import React from 'react';
+import { Inter } from "next/font/google";
+const inter = Inter({ subsets: ["latin"] });
 import Image from 'next/image';
 import style from '@/components/navBar/navBar.module.scss';
 import Link from 'next/link';
 import logo from '../../../public/logo.svg';
 import { motion } from 'framer-motion';
+
 
 export const NavBar = () => {
     return (
@@ -11,7 +14,7 @@ export const NavBar = () => {
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ ease: "easeOut", duration: 0.3 }}
-            className={style.header}>
+            className={`${style.header} ${inter.className}`}>
 
             <Link href="/">
                 <Image className={style.logo} src={logo} />

@@ -1,0 +1,119 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-rgb);
+  gap: 2rem;
+  // justify-content: center;
+  // align-items: center;
+  margin: 100px;
+  padding-right: 150px;
+  height: calc(100vh - 12rem);
+  width: 100vw;
+  .mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    mask-image: url('../../public/mask.svg');
+    background-color: var(--primary);
+    color: var(--background-rgb);
+    transition: transform ease-in-out  0.3s;
+    mask-repeat: no-repeat;
+    mask-size: 40px;
+    mask-position: 0;
+    cursor: default;
+    .span {
+      color: var(--foreground-rgb)
+    }
+    .title{
+      padding: 0 100px;
+      padding-top: 100px;
+    }
+    .paragraph {
+      padding: 0 100px;
+    }
+  }
+}
+
+.span {
+  color: var(--primary);
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.e404{
+  display: flex;
+  justify-content: center;
+  font-size: 6rem;
+  font-weight: 300;
+}
+
+.paragraph {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.para404 {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+
+// Header mask
+
+
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background:transparent;
+  padding: 0 6rem; //ocultar cuando se use inner
+  padding-top: 4rem; //ocultar cuando se use inner
+  padding-bottom: 5rem;
+  height: 3rem;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+
+.logo {
+  height: 4rem;
+  width: auto;
+  cursor: pointer;
+  transition: transform ease-in-out 1s;
+}
+
+
+
+/* Enable hover only on non-touch devices */
+@media (hover: hover) and (pointer: fine) {
+  
+}
+
+@media (prefers-reduced-motion) {
+
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  
+}
+
+

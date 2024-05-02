@@ -1,8 +1,10 @@
 .header {
+    position: relative;
     display: flex;
     justify-content: space-between;
+    background:transparent;
     padding: 0 6rem; //ocultar cuando se use inner
-    padding-top: 6rem; //ocultar cuando se use inner
+    padding-top: 4rem; //ocultar cuando se use inner
     padding-bottom: 5rem;
     height: 3rem;
 }

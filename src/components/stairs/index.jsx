@@ -1,5 +1,5 @@
 import sass from '@/components/stairs/style.module.scss'
-import styles from '@/styles/Home.module.css';
+import styles from '@/styles/Home.module.scss';
 import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 import { motion } from 'framer-motion';
