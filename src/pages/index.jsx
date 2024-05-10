@@ -36,10 +36,11 @@ export default function Home() {
 
         <motion.div
           className={styles.mask}
-          style={{
-            WebkitMaskPosition: `${x - size / 2}px ${y - size / 2}px`,
-          }}
+          // style={{
+          //   WebkitMaskPosition: `${x - size / 2}px ${y - size / 2}px`,
+          // }}
           animate={{
+            WebkitMaskPosition: `${x - size / 2}px ${y - size / 2}px`,
             WebkitMaskSize: `${size}px`,
           }}
           transition={{ type: "tween", ease: "backOut" }}
