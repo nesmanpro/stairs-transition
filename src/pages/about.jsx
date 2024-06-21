@@ -27,7 +27,7 @@ export default function About() {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ ease: "easeOut", duration: 0.3 }}
                 className={styles.paragraph}>
-                Lorem ipsum dolor sit amet consectetur elit.  Ea adipisicing  incidunt  magnam quod doloribus maxime omnis placeat vitae,vero aperiam numquam facilis recusandae laboriosam aut? Libero asperiores nulla labore <span className={styles.span}>minima maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit.  </span>Ea incidunt magnam quod doloribus maxime omnis placeat vitae, vero aperiam numquam facilis recusandae laboriosam aut? Libero asperiores nulla labore minima maxime.
+                Vero aperiam numquam facilis recusandae laboriosam aut? Libero asperiores nulla labore <span className={styles.span}>minima maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit.  </span>Ea incidunt magnam quod doloribus maxime omnis placeat vitae, vero aperiam numquam facilis recusandae laboriosam aut?
             </motion.p>
 
         </Stairs>

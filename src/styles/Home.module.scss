@@ -36,13 +36,19 @@
   }
 }
 
+
 .span {
   color: var(--primary);
 }
 
 .title {
   font-size: 4rem;
-  font-weight: 300;
+  font-weight: 700;
+}
+
+.paragraph {
+  font-size: 3rem;
+  font-weight: 700;
 }
 
 .e404{
@@ -52,10 +58,6 @@
   font-weight: 300;
 }
 
-.paragraph {
-  font-size: 2rem;
-  font-weight: 300;
-}
 
 .para404 {
   display: flex;

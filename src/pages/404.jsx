@@ -28,7 +28,7 @@ export default function notFound() {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ ease: "easeOut", duration: 0.3 }}
                 className={styles.para404}>
-                Error! <span className={styles.span}>   Page not found </span>
+                Error! <span className={styles.span}> Page not found </span>
             </motion.p>
 
         </Stairs>

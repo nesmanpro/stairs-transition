@@ -36,9 +36,6 @@ export default function Home() {
 
         <motion.div
           className={styles.mask}
-          // style={{
-          //   WebkitMaskPosition: `${x - size / 2}px ${y - size / 2}px`,
-          // }}
           animate={{
             WebkitMaskPosition: `${x - size / 2}px ${y - size / 2}px`,
             WebkitMaskSize: `${size}px`,
@@ -101,7 +98,7 @@ export default function Home() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ ease: "easeOut", duration: 0.3 }}
             className={styles.paragraph}>
-            Lorem ipsum dolor sit amet consectetur elit. <span className={styles.span}> Ea adipisicing  incidunt  magnam quod doloribus maxime omnis placeat vitae,vero aperiam numquam facilis recusandae laboriosam aut?</span> Libero asperiores nulla labore minima maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit.  Ea incidunt magnam quod doloribus maxime omnis placeat vitae.
+            Lorem ipsum dolor sit amet consectetur elit. <span className={styles.span}> Ea adipisicing  incidunt  magnam quod doloribus maxime omnis placeat vitae,vero aperiam numquam facilis recusandae laboriosam aut?</span> Libero asperiores nulla labore minima maxime.
           </motion.p>
         </div>
 
